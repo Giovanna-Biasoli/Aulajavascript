@@ -7,21 +7,19 @@ class MousseMaracuja {
         this.maracuja = maracuja
     }
 
-    fazerMousse(){
-        
-        if(this.leiteMoca == 2, this.cremeDeleite == 2, this.maracuja == 2){
+    fazerMousse() {
 
+        if (this.leiteMoca == 2, this.cremeDeleite == 2, this.maracuja == 2) {
 
-            console.log ("mouse feito :)")
+            console.log("mouse feito :)")
         }
-        else{
+        else {
 
-
-             console.log ("ingredientes nao suficientes :(")
+            console.log("ingredientes nao suficientes :(")
         }
     }
-} 
+}
 
-const Mousse = new MousseMaracuja( 1, 1, 2 )
+const Mousse = new MousseMaracuja(1, 1, 2)
 Mousse.fazerMousse()
 
